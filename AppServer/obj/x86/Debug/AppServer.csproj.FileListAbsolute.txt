@@ -1,0 +1,14 @@
+/home/abnery/Escritorio/Interfaz/Interfaz/bin/Debug/Interfaz.exe
+/home/abnery/Escritorio/Interfaz/Interfaz/bin/Debug/Interfaz.pdb
+/home/abnery/Escritorio/Interfaz/Interfaz/obj/x86/Debug/AppServer.csprojAssemblyReference.cache
+/home/abnery/Escritorio/Interfaz/Interfaz/obj/x86/Debug/AppServer.csproj.CoreCompileInputs.cache
+/home/abnery/Escritorio/Interfaz/Interfaz/obj/x86/Debug/AppServer.csproj.CopyComplete
+/home/abnery/Escritorio/Interfaz/Interfaz/obj/x86/Debug/Interfaz.exe
+/home/abnery/Escritorio/Interfaz/Interfaz/obj/x86/Debug/Interfaz.pdb
+/home/abnery/Escritorio/Interfaz/AppServer/bin/Debug/Interfaz.exe
+/home/abnery/Escritorio/Interfaz/AppServer/bin/Debug/Interfaz.pdb
+/home/abnery/Escritorio/Interfaz/AppServer/obj/x86/Debug/AppServer.csprojAssemblyReference.cache
+/home/abnery/Escritorio/Interfaz/AppServer/obj/x86/Debug/AppServer.csproj.CoreCompileInputs.cache
+/home/abnery/Escritorio/Interfaz/AppServer/obj/x86/Debug/AppServer.csproj.CopyComplete
+/home/abnery/Escritorio/Interfaz/AppServer/obj/x86/Debug/Interfaz.exe
+/home/abnery/Escritorio/Interfaz/AppServer/obj/x86/Debug/Interfaz.pdb

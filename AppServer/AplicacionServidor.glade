@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-interface>
+  <!--requires lib="gtk+" version="2.18"/-->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkWindow" id="Servidor">
+    <property name="width_request">600</property>
+    <property name="height_request">550</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Servidor</property>
+    <child>
+      <widget class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <widget class="GtkButton" id="bt_conexion">
+            <property name="label" translatable="yes">Establecer Conexion</property>
+            <property name="width_request">320</property>
+            <property name="height_request">45</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">60</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">127</property>
+            <property name="height_request">22</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Usted se a conectado a: </property>
+          </widget>
+          <packing>
+            <property name="x">60</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label2">
+            <property name="width_request">104</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Escribe un mensaje:
+</property>
+          </widget>
+          <packing>
+            <property name="x">60</property>
+            <property name="y">145</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkEntry" id="tb_mensaje">
+            <property name="width_request">185</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">●</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">True</property>
+            <property name="secondary_icon_sensitive">True</property>
+          </widget>
+          <packing>
+            <property name="x">190</property>
+            <property name="y">142</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label3">
+            <property name="width_request">118</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Conversación actual: 
+</property>
+          </widget>
+          <packing>
+            <property name="x">60</property>
+            <property name="y">275</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label5">
+            <property name="width_request">119</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Seleccione un destino:</property>
+          </widget>
+          <packing>
+            <property name="x">60</property>
+            <property name="y">180</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkComboBox" id="cb_clientes">
+            <property name="width_request">171</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </widget>
+          <packing>
+            <property name="x">200</property>
+            <property name="y">180</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="bt_enviar">
+            <property name="label" translatable="yes">Enviar Mensaje</property>
+            <property name="width_request">116</property>
+            <property name="height_request">29</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">225</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkEntry" id="tb_datos">
+            <property name="width_request">174</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="app_paintable">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="invisible_char">●</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">True</property>
+            <property name="secondary_icon_sensitive">True</property>
+          </widget>
+          <packing>
+            <property name="x">200</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="bt_cerrar">
+            <property name="label" translatable="yes">   Cerrar 
+Conexion</property>
+            <property name="width_request">90</property>
+            <property name="height_request">60</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label4">
+            <property name="width_request">117</property>
+            <property name="height_request">62</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="yalign">0.28999999165534973</property>
+            <property name="ypad">16</property>
+            <property name="label" translatable="yes">Seleccione un cliente
+a desconectar:</property>
+          </widget>
+          <packing>
+            <property name="x">435</property>
+            <property name="y">195</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkComboBox" id="cb_seleccion">
+            <property name="width_request">160</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </widget>
+          <packing>
+            <property name="x">410</property>
+            <property name="y">260</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="bt_desconectar">
+            <property name="label" translatable="yes">Desconectar
+  Selección</property>
+            <property name="width_request">90</property>
+            <property name="height_request">60</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="bt_historial">
+            <property name="label" translatable="yes">     Ver
+Historial</property>
+            <property name="width_request">90</property>
+            <property name="height_request">60</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">420</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkTextView" id="tb_mostrar">
+            <property name="width_request">328</property>
+            <property name="height_request">189</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="buffer">con_buffer</property>
+          </widget>
+          <packing>
+            <property name="x">62</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+        	<widget class="GtkTextBuffer" id="con_buffer"/>
+        </child>
+      </widget>
+    </child>
+  </widget>
+
+</glade-interface>

@@ -1,0 +1,12 @@
+/home/abnery/Escritorio/Interfaz/InterfazCliente/bin/Debug/InterfazCliente.exe
+/home/abnery/Escritorio/Interfaz/InterfazCliente/bin/Debug/InterfazCliente.pdb
+/home/abnery/Escritorio/Interfaz/InterfazCliente/obj/x86/Debug/AppCliente.csprojAssemblyReference.cache
+/home/abnery/Escritorio/Interfaz/InterfazCliente/obj/x86/Debug/AppCliente.csproj.CoreCompileInputs.cache
+/home/abnery/Escritorio/Interfaz/InterfazCliente/obj/x86/Debug/InterfazCliente.exe
+/home/abnery/Escritorio/Interfaz/InterfazCliente/obj/x86/Debug/InterfazCliente.pdb
+/home/abnery/Escritorio/Interfaz/AppCliente/bin/Debug/InterfazCliente.exe
+/home/abnery/Escritorio/Interfaz/AppCliente/bin/Debug/InterfazCliente.pdb
+/home/abnery/Escritorio/Interfaz/AppCliente/obj/x86/Debug/AppCliente.csprojAssemblyReference.cache
+/home/abnery/Escritorio/Interfaz/AppCliente/obj/x86/Debug/AppCliente.csproj.CoreCompileInputs.cache
+/home/abnery/Escritorio/Interfaz/AppCliente/obj/x86/Debug/InterfazCliente.exe
+/home/abnery/Escritorio/Interfaz/AppCliente/obj/x86/Debug/InterfazCliente.pdb

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-interface>
+  <!-- glade-interface-naming-policy project-wide -->
+  <widget class="GtkWindow" id="Historial">
+    <property name="width_request">550</property>
+    <property name="height_request">500</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Historial del Chat</property>
+    <child>
+      <widget class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <widget class="GtkTextView" id="tb_mostrar">
+            <property name="width_request">510</property>
+            <property name="height_request">460</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="buffer">his_buffer</property>
+          </widget>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">20</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="GtkTextBuffer" id="his_buffer"/>
+</glade-interface>
